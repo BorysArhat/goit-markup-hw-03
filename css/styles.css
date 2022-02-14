@@ -92,7 +92,7 @@ body {
   align-items: center;
 }
 .hero {
-  padding: 200px;
+  padding: 200px 0px;
   background-color: #2f303a;
   text-align: center;
 }
@@ -194,6 +194,7 @@ body {
 .team-subscribe {
   text-align: center;
   letter-spacing: 0.03em;
+  padding-bottom: 30px;
 }
 .team-name {
   font-weight: 500;
@@ -206,7 +207,6 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: var(--second-color);
-  padding-bottom: 30px;
 }
 .footer {
   background-color: #2f303a;
@@ -286,6 +286,8 @@ body {
   margin-top: -4px;
   border: 1px solid #eeeeee;
   border-top: none;
+  padding-left: 24px;
+  padding-top: 20px;
 }
 .project-name {
   font-weight: bold;
@@ -293,8 +295,6 @@ body {
   line-height: 200%;
   letter-spacing: 0.06em;
   color: var(--main-color);
-  padding-left: 24px;
-  padding-top: 20px;
   padding-bottom: 4px;
 }
 .project-type {
@@ -302,8 +302,6 @@ body {
   line-height: 187%;
   letter-spacing: 0.03em;
   color: var(--second-color);
-  padding-left: 24px;
-  padding-bottom: 20px;
 }
 .project-descript {
   display: none;
