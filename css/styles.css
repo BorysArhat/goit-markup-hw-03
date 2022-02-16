@@ -142,6 +142,7 @@ body {
 }
 .pref-name {
   font-weight: bold;
+  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -188,12 +189,11 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-photo {
-  padding-bottom: 30px;
-}
+
 .team-subscribe {
   text-align: center;
   letter-spacing: 0.03em;
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 .team-name {
@@ -286,8 +286,7 @@ body {
   margin-top: -4px;
   border: 1px solid #eeeeee;
   border-top: none;
-  padding-left: 24px;
-  padding-top: 20px;
+  padding: 20px 24px;
 }
 .project-name {
   font-weight: bold;
